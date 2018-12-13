@@ -4,7 +4,7 @@
  * @version 1.0
  */
 /*
-Plugin Name: Rentit Font Awesome Updater
+Plugin Name: Rentit Font Awesome Updater has error
 Plugin URI: https://wordpress.org/plugins/hello-dolly/
 Description: this make renit theme js and css file up to date
 Version: 1.0
@@ -12,6 +12,7 @@ Author URI: https://ma.tt/
 Text Domain: Rentit_Font_Awesome_Updater
 */
 /* add forntend */
+/*
 add_action( 'wp_enqueue_scripts', 'Rentit_Font_Awesome_Updater_dequeue_scripts', 400 );
 add_action( 'wp_enqueue_scripts', 'Rentit_Font_Awesome_Updater_enqueue_scripts', 400 );
 /* add backend */
