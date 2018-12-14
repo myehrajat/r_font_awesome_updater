@@ -4,7 +4,7 @@
  * @version 1.0
  */
 /*
-Plugin Name: Rentit Font Awesome Updater has error
+Plugin Name: Rentit Font Awesome Updater 5.6.0 (bug)
 Plugin URI: https://wordpress.org/plugins/hello-dolly/
 Description: this make renit theme js and css file up to date
 Version: 1.0
@@ -35,8 +35,7 @@ function Rentit_Font_Awesome_Updater_dequeue_styles() {
 	wp_deregister_style( 'renita_font-awesome' );
 }
 function Rentit_Font_Awesome_Updater_enqueue_styles() {
-	wp_enqueue_style( 'renita_font-awesome','https://use.fontawesome.com/releases/v5.6.1/css/all.css', array(), '5.6.0', false);
-	//wp_enqueue_style( 'renita_font-awesome',plugins_url("Font-Awesome/css/fontawesome.min.css",__FILE__ ), array(), '5.6.0', false);
+	wp_enqueue_style( 'renita_font-awesome',plugins_url("Font-Awesome/all.min.css",__FILE__ ), array(), '5.6.0', true);
 }
 /*
 syntax of fontawesome has some changes source:
